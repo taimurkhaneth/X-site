@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Geologica', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            /* border: 2px solid red; */
+            height: 100vh;
+            ;
+        }
+
+        .item1 {
+            /* border: 2px solid green; */
+            flex: 1;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .item2 {
+            /* border: 2px solid blue; */
+            flex: 1;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            font-size: x-large;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 20px;
+            border-radius: 0px;
+            cursor: pointer;
+            font-weight: 500;
+            box-shadow: #000 0px 0px 10px;
+        }
+        button:hover {
+            background-color: #00ff72;
+            color: #000;
+        }
+        
+
+        .social {
+            display: flex;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .bar { 
+            display: flex;
+            align-self: flex-start;
+            margin-left: 20px;
+            position: absolute;
+            top: 0;
+            margin-top: 1.5rem;
+            font-weight: 800;
+            font-size: larger;
+
+
+        }
+        .bar ul li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .bar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .bar ul li a:hover {
+            color: #00ff72;
+        }
+.bar img {
+    margin-right: 10px;
+align-self: center;
+justify-self: flex-end;
+}
+.ham {
+    position: absolute;
+     top: 0;
+     align-self: flex-end;
+        justify-self: flex-end;
+        margin-right: 20px;
+        margin-top: 2rem;
+        fill: #000;
+        cursor: pointer;
+
+}
+.ham:hover {    
+    fill: #00ff72;
+}
+.ham img {
+    height: 30px;
+}
+      
+    </style>
+</head>
+
+<body>
+    <Div class="container">
+    
+        <div class="item1">
+
+
+
+            <img src="./twitter-x copy.svg" alt="" height="200px">
+
+
+
+
+
+        </div>
+        <div class="item2">
+<div class="ham">
+            <img src="./list.svg" alt="">
+        </div>
+            <div class="bar">
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Subscribe</a></li>
+
+                </ul>
+            </nav>
+        </div>
+            <h1>GREAT THINGS <br>ARE COMING</h1>
+            <button>Learn More</button>
+            <div class="social">
+                <a href=""><img src="./facebook.svg" alt="" height="30px"></a>
+                <a href=""><img src="./instagram.svg" alt="" height="30px"></a>
+                <a href=""><img src="./twitter-x.svg" alt="" height="30px"></a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </Div>
+</body>
+
+</html>
